@@ -6,6 +6,134 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <header>
+      <img src="/src/img/round-hotel-sign.png" alt="logo-hotel" width="40px">
+      <div class="topnav">
+        <a class="active" href="#home">inicio</a>
+        <a href="#reservation">Reserva</a>
+        <a href="#aboutus">Sobre nosotros</a>
+      </div>
+    </header>
+    <main>
+      <section class="firts-page">
+        <div class="ima-left">
+          <img src="/src/img/hoteles-que-admiten-gatos (1).jpg" alt="imagen-gato-perro">
+        </div>
+
+        <div class="texto-inicio">
+          <h1>BIENVENIDO</h1>
+          <h3>Para disfrutar de una gran experiencia en nuestro hotel, empieza haciendo tu reserva aquí.
+          </h3>
+          <br>
+          <p>Para continuar con la reserva necesitarás tu tarjeta de crédito
+          </p>
+          <button>RESERVAR</button>
+        </div>
+      </section >
+        
+      <section class="second-page">
+        <p>Te ofrecemos estos excelentes paquetes para tu amigo peludo.
+          Por favor selecciona el que necesites:
+        </p>
+
+        <div class="packs" id="">
+          <img src="/src/img/img-dog.jpg" alt="imagen-paquete-perro" width="200px">
+          <h1>Paquete para caninos</h1>
+          <ul>
+            <li>Snack y comida</li>
+            <li>Área de juegos</li>
+            <li>Revisión veterinaria y Peluqueía</li>
+          </ul>
+          <button>RESERVAR</button>
+        </div>
+
+        <div class="packs" id="">
+          <img src="/src/img/img-cat.jpg" alt="imagen-paquete-gato" width="200px">
+          <h1>Paquete para felinos</h1>
+          <ul>
+            <li>Snack y comida</li>
+            <li>Spa para gatos</li>
+            <li>Zona de juegos y relajación</li>
+          </ul>
+          <button>RESERVAR</button>
+        </div>
+      </section>
+
+      <section>
+        <h3>Estás a un paso de darle a tu amigo peludo una experiencia extraordinaria, solo debes ingresar tus datos para finalizar tu reserva        </h3>
+
+        <form action="" >
+          <h2>Datos de la reserva</h2>
+          <label for="full-name">Nombre completo:</label>
+          <input type="text" id="fname" name="fname"><br>
+
+          <label for="pet-name">Nombre del peludo:</label>
+          <input type="text" id="pname" name="pname"><br>
+
+          <label for="email">Correo:</label>
+          <input type="text" id="email" name="email"><br><br>
+
+          <label for="phone">Número de contacto:</label>
+          <input type="number" id="phone" name="phone"><br><br>
+ 
+          <label for="start-date">Fecha de entrada:</label>
+          <input type="date" id="start" name="reservation-start"><br>
+
+          <label for="end-date">Fecha de entrada:</label>
+          <input type="date" id="end" name="reservation-end">
+        </form>
+
+        <form action="">
+          <h2>Datos para el pago</h2>
+          <label for="card-type">Tipo de tarjeta:</label>
+          <select name="select" id="option">
+            <option></option>
+            <option value="visa" id="tvisa">Visa</option>
+            <option value="mastercard" id="tmastercard">Mastercard</option>
+            <option value="oregano" id="tamerican">American Express</option>
+          </select><br>
+
+          <label for="card-number">Número de tarjeta:</label>
+          <input type="cnumber" id="cnumber" name="cnumber"><br>
+
+          <label for="document-type">Tipo de documento:</label>
+          <select name="select" id="option">
+            <option></option>
+            <option value="cedulac" id="cedciudadania">Cédula de Ciudadanía</option>
+            <option value="cedulae" id="cedextranjeria">Cédula de extranjería</option>
+            <option value="pasaporte" id="pasaporte">Pasaporte</option>
+          </select><br>
+
+          <label for="document-number">Número de documento:</label>
+          <input type="number" id="dnumber" name="dnumber"><br>        
+              
+          <button onclick="readCardNumber()">Confirmar</button>
+          <!--<input type="submit" value="Confirmar">  -->
+        </form>
+      </section>
+ 
+      <section>
+        <h1>¡FELICITACIONES!</h1>
+        <h3>Su reserva ha sido exitosa</h3>
+        <img src="" alt="imagen-reserva-exitosa">
+nhgfjksdghjkshf
+      </section>
+
+    </main>
+    <footer>
+      <p>Powered by Anaru y Alejandra</p>
+    </footer>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tarjeta de crédito válida</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header></header>
     <main></main>
     <footer></footer>
