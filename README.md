@@ -315,3 +315,4 @@ Organización del Trabajo:
 * [Blog: cómo funciona el algoritmo de Luhn](http://www.quobit.mx/asi-funciona-el-algoritmo-de-luhn-para-generar-numeros-de-tarjetas-de-credito.html).
 
 aqui esta aleja 
+Lau pudo push su cambio
