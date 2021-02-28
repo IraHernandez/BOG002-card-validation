@@ -1,15 +1,19 @@
 import validator from './validator.js';
 
 
-var creditCardNumber = document.getElementById('dnumber').value;
+let creditCardNumber = document.getElementById('dnumber').value;
 
 document.getElementById('dnumber').addEventListener("input", function(event) {
-    let input = event.target.value;
-    creditCardNumber = creditCardNumber + input.slice(-1);
-    let klcfb = validator.maskify(input);
-    document.getElementById('dnumber').value=klcfb;
+    const inputDnumber = event.target.value;
+
+     if (creditCardNumber.length < inputDnumber.length) {
+        creditCardNumber = creditCardNumber + inputDnumber.slice(-1);
+    }else{
+        creditCardNumber = creditCardNumber.slice(0,-1) ;
+    }
     
-    console.log(klcfb)
+    let convertedNumber = validator.maskify(creditCardNumber);
+    document.getElementById('dnumber').value=convertedNumber;
 });
  
 
