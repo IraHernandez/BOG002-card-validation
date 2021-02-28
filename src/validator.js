@@ -21,6 +21,7 @@ const validator = {
         return (false)
       }
     },
+
   maskify : function maskify(readCardNumber){  
     if (readCardNumber.length<4) {
       return readCardNumber
