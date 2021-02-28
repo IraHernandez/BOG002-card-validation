@@ -17,7 +17,11 @@ document.getElementById('dnumber').addEventListener("input", function(event) {
 });
  
 
-let erdf = document.getElementById('confirm').addEventListener("click", function() {validator.isValid(creditCardNumber)});
+let erdf = document.getElementById('confirm').addEventListener("click", function() {
+    validator.isValid(creditCardNumber)
+    
+    
+});
 
 
 
