@@ -17,8 +17,14 @@ document.getElementById('dnumber').addEventListener("input", function(event) {
 });
  
 
-let erdf = document.getElementById('confirm').addEventListener("click", function() {
-    validator.isValid(creditCardNumber)
+document.getElementById('confirm').addEventListener("click", function() {
+    let validatedNumber = validator.isValid(creditCardNumber);
+
+    if (validatedNumber== true) {
+        location.href ="/src/page4.html";
+    } else {
+        alert ('Su tarjeta es inválida, por favor verifíquela');
+    };
     
     
 });
