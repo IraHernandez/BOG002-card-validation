@@ -43,15 +43,7 @@
 
       <form action="">
         <h2>Datos para el pago</h2>
-        <label for="card-type">Tipo de tarjeta:</label>
-        <select name="select" id="option">
-          <option></option>
-          <option value="visa" id="tvisa">Visa</option>
-          <option value="mastercard" id="tmastercard">Mastercard</option>
-          <option value="oregano" id="tamerican">American Express</option>
-        </select><br>
-
-        <label for="card-number">Número de tarjeta:</label>
+        <label for="card-number">Número de documento:</label>
         <input type="cnumber" id="cnumber" name="cnumber"><br>
 
         <label for="document-type">Tipo de documento:</label>
@@ -59,6 +51,14 @@
           <option value="cedulac" id="cedciudadania">Cédula de Ciudadanía</option>
           <option value="pasaporte" id="pasaporte">Pasaporte</option>
         </select><br>
+
+        <label for="card-type">Tipo de tarjeta:</label>
+        <select name="select" id="option">
+          <option></option>
+          <option value="visa" id="tvisa">Visa</option>
+          <option value="mastercard" id="tmastercard">Mastercard</option>
+          <option value="oregano" id="tamerican">American Express</option>
+        </select>     
         <label for="document-number">Número de tarjeta:</label>
           <input type="text" id="dnumber" name="dnumber"><br>            
           <button id="confirm" name="confirm"> Reservar</button>
