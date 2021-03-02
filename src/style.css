@@ -3,6 +3,7 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-body {
-    background-color: #ffffffff;
+* {
+    background-color: #EAFFEA;
   }
+
