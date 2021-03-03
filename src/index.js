@@ -24,9 +24,7 @@ document.getElementById('confirm').addEventListener("click", function() {
         location.href ="/src/page4.html";
     } else {
         alert ('Su tarjeta es inválida, por favor verifíquela');
-    };
-    
-    
+    }    
 });
 
 
