@@ -4,28 +4,33 @@
     <meta charset="utf-8">
     <title>Hotel CatDog</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@500&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <img src="/src/img/logo-cat-dog 1.png" alt="logo-hotel" width="50px">
-      <div class="topnav">
-        <a class="active" href="#home">inicio</a>
+    <header class="header">
+      <div class="container logo-nav-container">
+        <img src="/src/img/logo-cat-dog 1.png" id="logoCatDog" alt="logo-hotel">
+        <nav class="navigation">
+          <ul>
+            <li><a class="active" href="#home">Inicio</a></li>
+          </ul>
+        </nav>
       </div>
-      <link rel = "preconnect" href = "https://fonts.gstatic.com">
-      <link href = "https://fonts.googleapis.com/css2? family = Lato: wght @ 300 & display = swap" rel = "hoja de estilo">
     </header>
     <main>
       <section class="firts-page">
-        <div class="ima-left">
-          <img src="/src/img/imagen-inicio 1.png" alt="imagen-gato-perro">
-        </div>
-        <div class="texto-inicio">
-          <h1>BIENVENIDO AL </h1>
-          <h2>HOTEL CATDOG</h2>
-          <p>Tu peludo necesita un lugar donde pueda ser él y tener todos los cuidados que necesita cuando tú no estés.</p>
-          <p>Para disfrutar de una gran experiencia en nuestro hotel, empieza haciendo 
-            tu reserva aquí:</p>
-          <button>RESERVAR</button>
+        <div class="container imagen-index">
+          <div class="index-content">
+            <img src="/src/img/imagen-inicio 1.png" alt="imagen-gato-perro"> 
+          </div>
+          <div class="index-content">
+            <h1>BIENVENIDO AL <span>HOTEL CATDOG<span></h1>
+            <p>Tu peludo necesita un lugar donde pueda ser él y tener todos los cuidados que necesita cuando tú no estés.</p>
+            <p>Para disfrutar de una gran experiencia en nuestro hotel, empieza haciendo 
+              tu reserva aquí:</p>
+            <button>RESERVAR</button>
+          </div>     
         </div>
       </section >
     </main>
