@@ -3,14 +3,118 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-* {
-    background-color: #EAFFEA;
-    font-family:'Lato', sans-serif;
-  }
-h1 {
-  color:black;
-  font-family:'Roboto', sans-serif;;
+
+*{
+  background-color: #EAFFEA;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+p{
+    color: #535353;
+    text-align: center;
+  }
+  
+
+button{
+    height:56px;
+    width:200px;
+    background-color:#85DB83;
+    border-color: #85DB83 ; 
+  }
+
+
+body{
+  width:100%;
+  font-family:'Lato', sans-serif,;
+}
+
+.container{
+  width: 85%;
+  margin-left: 69px;
+}
+
+.header{
+  width: 100%;
+}
+
+.header a{
+  text-decoration: none;
+  color: #729F7C;
+}
+
+.logo-nav-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#logoCatDog{
+    width: 80px;
+    margin: 16px;
+    margin-left: 0px;
+  }  
+
+.navigation ul{
+   list-style: none;
+  }
+  
+.navigation ul li{
+  display: inline-block;
+}
+  
+.navigation ul li a{
+display: inline-block;
+padding: 0.5rem 1rem; 
+transition: all 0.4s linear;
+border-radius: 7px ;
+}
+  
+.navigation ul li a:hover{
+background: #85DB83;
+color: #ffffff;
+}
+
+h1{
+  font-size: 72px;
+  font-family:'Roboto', sans-serif;
+  text-align: center;
+  padding: 20px 0;
+}
+
 h2{
-  color: gold;
+  font-family:'Roboto', sans-serif;
+}
+
+span{
+  color: #DAB91C;
+}
+
+.index-content{
+  float: left;
+  width: 49.99999%;
+}
+
+div.index-content img{
+  float: left;
+  max-width: 100%;
+  height: auto;
+}
+
+
+.imagen-index{
+  padding-top: 46px;
+  margin-top: 26px;
+  padding-left: 10%;
+}
+
+footer{
+  text-align: center;
+  background: #85DB83;
+  width: 100%;
+  padding: 20px 0;
+  margin: auto;
+  overflow: hidden;
 }
