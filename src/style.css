@@ -5,5 +5,12 @@ input::-webkit-inner-spin-button {
 }
 * {
     background-color: #EAFFEA;
+    font-family:'Lato', sans-serif;
   }
-
+h1 {
+  color:black;
+  font-family:'Roboto', sans-serif;;
+}
+h2{
+  color: gold;
+}
