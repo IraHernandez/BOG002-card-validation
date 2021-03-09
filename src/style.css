@@ -5,7 +5,7 @@ input::-webkit-inner-spin-button {
 }
 
 *{
-  background-color: #EAFFEA;
+  
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -14,20 +14,38 @@ input::-webkit-inner-spin-button {
 p{
     color: #535353;
     text-align: center;
+    font-size: 18px;
   }
   
+.index-content p{
+  padding: 0 0 23px;
+}
 
 button{
-    height:56px;
-    width:200px;
-    background-color:#85DB83;
-    border-color: #85DB83 ; 
-  }
+  height:56px;
+  width:200px;
+  margin-top: 10px;
+  background-color:#85DB83;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
 
+.button-first-page{
+  position: relative;
+  left: 181px;
+}
+
+button a{
+  text-decoration: none;
+  color: #ffffff;
+  
+}
 
 body{
+  background-color: #EAFFEA;
   width:100%;
-  font-family:'Lato', sans-serif,;
+  font-family:'Lato', sans-serif;
 }
 
 .container{
@@ -37,6 +55,8 @@ body{
 
 .header{
   width: 100%;
+  /* position: absolute;
+  top: 0; */
 }
 
 .header a{
@@ -78,11 +98,14 @@ color: #ffffff;
 }
 
 h1{
-  font-size: 72px;
+  color: #535353;
+  font-size: 4vw;
   font-family:'Roboto', sans-serif;
   text-align: center;
-  padding: 20px 0;
+  padding-bottom: 20px;
 }
+
+
 
 h2{
   font-family:'Roboto', sans-serif;
@@ -92,29 +115,76 @@ span{
   color: #DAB91C;
 }
 
+.index{
+  /* position: fixed;
+  top: 90px; */
+  padding-top: 46px;
+  margin-top: 26px;
+  padding-left: 6%;
+  
+}
+
 .index-content{
   float: left;
   width: 49.99999%;
+  margin-bottom: 5%;
+}
+
+.text{
+  font-size: calc(1em + 0.1vw);
+  width: 90%;
+  padding-left: 10%;
+
 }
 
 div.index-content img{
   float: left;
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
 }
 
-
-.imagen-index{
-  padding-top: 46px;
-  margin-top: 26px;
+.second-page-text{
+  font-size: calc(1em + 0.1vw);
+  width: 90%;
   padding-left: 10%;
+  margin-bottom: 1rem;
+}
+
+.packs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+ul{
+  list-style-type: none;
+  text-align: center;
+  padding: 0 0 10px;
+}
+
+.packs p{
+  padding: 0 0 10px;
+}
+
+#img-cat-dog{
+  width: 20%;
+  margin: 25px;
 }
 
 footer{
-  text-align: center;
+  /* position: fixed; */
+  /* left: 0;
+  bottom: 0; */
   background: #85DB83;
   width: 100%;
-  padding: 20px 0;
-  margin: auto;
-  overflow: hidden;
+  padding: 10px 0;
+  margin-top: 10px;
+  overflow: hidden; 
+}
+
+footer p{
+  font-size: 13px;
+  background-color: #85DB83;
+  color: #ffffff;
 }

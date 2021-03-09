@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/src/img/favicon-hotel-catdog@3x.png">
     <title>Hotel CatDog</title>
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -13,42 +14,52 @@
         <img src="/src/img/logo-cat-dog 1.png" id="logoCatDog" alt="logo-hotel">
         <nav class="navigation">
           <ul>
-            <li><a class="active" href="#home">Inicio</a></li>
+            <li><a class="active" href="./index.html">Inicio</a></li>
           </ul>
         </nav>
       </div>
     </header>
     <section class="second-page">
-      <p>Te ofrecemos estos excelentes paquetes para tu amigo peludo. 
-        Recuerda que la duración de los paquetes es de medio día (8hr).   
-        Por favor seleciona el que necesites:</p>
-      <div class="packs" id="packDog">
-        <img src="/src/img/dog@3x 1.png" alt="imagen-paquete-perro" width="200px">
-        <h1>Paquete para caninos:</h1>
-        <ul>
-          <li>Snack y comida</li>
-          <li>Área de juegos</li>
-          <li>Revisión veterinaria y Peluquería</li> <br>
-          <li>Valor: <span>$150.000</span></li>
-        </ul><br>
-        <button>RESERVAR</button>
+      <div class="container index">
+        <div class="second-page-text">
+          <p>Te ofrecemos estos excelentes paquetes para tu amigo peludo. 
+            Recuerda que la duración de los paquetes es de medio día (8hr).   
+            Por favor seleciona el que necesites:</p>
+        </div>
+        <div class="index-content">
+          <div class="packs" id="packDog">
+            <img src="/src/img/dog@3x 1.png" alt="imagen-paquete-perro" width="200px">
+            <p><b>Paquete para caninos:</b></p>
+            <ul>
+              <li>Snack y comida</li>
+              <li>Área de juegos</li>
+              <li>Revisión veterinaria y Peluquería</li>
+            </ul>
+            <p>Valor: <span>$150.000</span></p>
+            <button class="button-second-page"><a href="./page3.html" target="_blank">RESERVAR</a></button> 
+          </div>
+        </div>  
+        <div class="index-content">
+          <div class="packs" id="packCat">
+            <img src="/src/img/cat-img@3x 1.png" alt="imagen-paquete-gato" width="200px">
+            <p><b>Paquete para felinos:</b></p>
+            <ul>
+              <li>Snack y comida</li>
+              <li>Spa para gatos</li>
+              <li>Zona de juegos y relajación</li> 
+            </ul>
+            <p>Valor: <span>$150.000</span></p>
+            <button class="button-second-page" target="_blank"><a href="./page3.html">RESERVAR</a></button>
+          </div>
+        </div>
+        </div>
       </div>
-      <div class="packs" id="packCat">
-        <img src="/src/img/cat-img@3x 1.png" alt="imagen-paquete-gato" width="200px">
-        <h1>Paquete para felinos:</h1>
-        <ul>
-          <li>Snack y comida</li>
-          <li>Spa para gatos</li>
-          <li>Zona de juegos y relajación</li><br>
-          <li>VaLor: <span>$150.000</span></li>
-        </ul><br>
-        <button>RESERVAR</button>
-      </div>
+      <footer>
+        <p>Copyright©</p>
+        <p>Powered by Anaru y Alejandra</p>
+      </footer>
     </section>
   </body>
-  <footer>
-    <p>Copyright©</p>
-    <p>Powered by Anaru y Alejandra</p>
-  </footer>
+
   <script src="index.js" type="module"></script>
 </html>

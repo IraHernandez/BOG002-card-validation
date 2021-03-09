@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/src/img/favicon-hotel-catdog@3x.png">
     <title>Hotel CatDog</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@500&display=swap" rel="stylesheet">
   </head>
   <body>
     <header class="header">
@@ -13,24 +16,29 @@
         <img src="/src/img/logo-cat-dog 1.png" id="logoCatDog" alt="logo-hotel">
         <nav class="navigation">
           <ul>
-            <li><a class="active" href="#home">Inicio</a></li>
+            <li><a class="active" href="./index.html">Inicio</a></li>
           </ul>
         </nav>
       </div>
     </header>
     <main>
       <section class="fourth-page">
-        <h1 >¡FELICIDADES!</h1>
-        <p>Su reserva ha sido <span>exitosa</span></p>
-        <img src="/src/img/cat-dog-img@3x 1.png" alt="imagen-reserva-exitosa"><br>
-        <p>¿Quieres hacer otra reserva?</p><br>
-        <a href="#reservation">Reservar</a>
+        <div class="container index">
+          <h1 >¡FELICIDADES!</h1>
+          <p>Su reserva ha sido <span>exitosa</span></p>
+          <div class="packs">  
+          <img id="img-cat-dog" src="/src/img/cat-dog-img.png" alt="imagen-reserva-exitosa">
+          <p>¿Quieres hacer otra reserva?</p>
+          <button class="button-second-page"><a href="./page2.html" target="_blank">RESERVAR</a></button>
+          </div>  
+        </div>
+        <footer>
+          <p>Copyright©</p>
+          <p>Powered by Anaru y Alejandra</p>
+        </footer>
       </section> 
     </main> 
   </body>
-  <footer>
-    <p>Copyright©</p>
-    <p>Powered by Anaru y Alejandra</p>
-  </footer>
+
   <script src="index.js" type="module"></script>
 </html>
