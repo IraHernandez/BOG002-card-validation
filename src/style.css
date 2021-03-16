@@ -3,14 +3,43 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-
 *{
   
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+.formulario
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+input
+{
+  border-radius:15px;
+  margin-left: 20px;
+}
+
+label{
+  margin-bottom: 20px;
+}
+.container-datos
+{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+
+}
+ .container-pago
+ {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  
+
+ }
 p{
     color: #535353;
     text-align: center;
@@ -29,6 +58,7 @@ button{
   border: none;
   border-radius: 15px;
   cursor: pointer;
+  color: white;
 }
 
 .button-first-page{
@@ -38,14 +68,14 @@ button{
 
 button a{
   text-decoration: none;
-  color: #ffffff;
-  
+  color: #ffffff;  
 }
 
 body{
   background-color: #EAFFEA;
   width:100%;
   font-family:'Lato', sans-serif;
+  margin: 0 auto;
 }
 
 .container{
@@ -55,8 +85,6 @@ body{
 
 .header{
   width: 100%;
-  /* position: absolute;
-  top: 0; */
 }
 
 .header a{
@@ -173,9 +201,6 @@ ul{
 }
 
 footer{
-  /* position: fixed; */
-  /* left: 0;
-  bottom: 0; */
   background: #85DB83;
   width: 100%;
   padding: 10px 0;
